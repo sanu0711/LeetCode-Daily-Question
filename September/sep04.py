@@ -1,5 +1,5 @@
 class Solution:
-    def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
+    def robotSim(self, commands: list[int], obstacles: list[list[int]]) -> int:
         # Convert the list of obstacles to a set for O(1) lookup time
         obstacle_set = set(map(tuple, obstacles))
         
